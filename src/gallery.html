@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Загородный дом</title>
+
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+
+	<!-- @if ENV='dev' -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<link rel="stylesheet" href="styles/main.min.css">
+	<!-- @endif -->
+
+	<!-- // @include inc/_meta.html -->
+  
+  <!-- @include inc/_favicons.html -->
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="super-bg"></div>
+  <!-- @include inc/_browserhappy.html -->
+  
+  
+
+  <div id="main" class="page-container">
+    <!-- @include inc/header.html -->
+    <div class="wrapper wrapper_main">
+      <div class="page-container__container">
+        <div class="page-container__col page-container__col_left">
+          <!-- @include inc/sidenav.html -->
+        </div>
+        <div class="page-container__col page-container__col_right">
+          <header>
+            <h1>Галерея работ компании "Загородный дом"</h1>
+            <div id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="#" rel="v:url" property="v:title">Главная страница</a> - <span class="breadcrumb_last">Бани</span></span></span></div>
+          </header>
+          <div class="page-container__text gallery">
+            <div class="gallery__container">
+              <a href="#" class="gallery__item gallery__item_cat" style="background-image: url('../images/gallery/dsc_0062.jpg'); " title="Галерея лестниц">
+                <figure>
+                  <img src="images/gallery/dsc_0062.jpg" alt="Галерея лестниц">
+                  <figcaption class="gallery__title">Лестницы</figcaption>
+                </figure>
+                <div class="gallery__count"><span>39</span></div>
+              </a>
+              <a href="#" class="gallery__item gallery__item_cat" style="background-image: url('../images/gallery/dsc_0194.jpg'); " title="Галерея строительство">
+                <figure>
+                  <img src="images/gallery/dsc_0194.jpg" alt="Галерея строительство">
+                  <figcaption class="gallery__title">Галерея строительство</figcaption>
+                </figure>
+                <div class="gallery__count"><span>34</span></div>
+              </a>
+              <a href="#" class="gallery__item gallery__item_cat" style="background-image: url('../images/gallery/IMG20150131144609jpg.jpg'); " title="Галерея отделка">
+                <figure>
+                  <img src="images/gallery/IMG20150131144609jpg.jpg" alt="Галерея отделка">
+                  <figcaption class="gallery__title">Галерея отделка</figcaption>
+                </figure>
+                <div class="gallery__count"><span>32</span></div>
+              </a>
+              <a href="#" class="gallery__item gallery__item_cat" style="background-image: url('../images/gallery/IMG__20151108__164250.jpg'); " title="Галерея заборы">
+                <figure>
+                  <img src="images/gallery/IMG__20151108__164250.jpg" alt="Галерея заборы">
+                  <figcaption class="gallery__title">Галерея заборы</figcaption>
+                </figure>
+                <div class="gallery__count"><span>6</span></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <!-- @include inc/footer.html -->
+  </div>
+
+  <script type="text/javascript" src="scripts/modernizr-custom.js"></script>
+  
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script>jQuery().magnificPopup || document.write('<script src="scripts/vendor/jquery.magnific-popup.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <script>jQuery().slick || document.write('<script src="scripts/vendor/slick.min.js"><\/script>')</script>
+
+  <!-- @if ENV='dev' -->
+  <script type="text/javascript" src="scripts/yepnope.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+  <!-- @endif -->
+  <!-- @if ENV='prod' -->
+  <script type="text/javascript" src="scripts/yepnope.min.js"></script>
+	<script type="text/javascript" src="scripts/main.min.js"></script>
+	<!-- @endif -->
+  <!-- //@include inc/_analytics.html -->
+</body>
+</html>

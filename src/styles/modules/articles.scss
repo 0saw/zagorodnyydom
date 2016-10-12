@@ -1,0 +1,58 @@
+.articles {
+  &__header {
+    flex-basis: 100%;
+    min-width: 100%;
+    color: $color2;
+    padding: 0.5rem 0 0.2rem;
+    a {
+      color: $color2;
+      text-decoration: none;
+      &:hover {
+        color: darken($color2, 20);
+        text-decoration: none;
+      }
+    }
+  }
+  &__item {
+    -js-display: flex;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
+  }
+  &__image {
+    flex: 0;
+    margin-right: 0.5rem;
+    img {
+      width: 140px;
+    }
+  }
+  &__text {
+    flex: 1;
+    font-size: 0.9rem;
+    -js-display: flex;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  &__footer {
+  }
+  &__footer-col {
+    width: 50%;
+    float: left;
+    &:last-child {
+      text-align: right;
+    }
+    time {
+      color: #999;
+    }
+    a {
+      text-decoration: none;
+      color: $color1;
+      font: bold italic 0.9rem "Noto Serif", serif;
+      &:hover {
+        text-decoration: underline;
+        color: $color5;
+      }
+    }
+  }
+}

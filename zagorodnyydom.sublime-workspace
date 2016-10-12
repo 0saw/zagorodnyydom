@@ -1,0 +1,872 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"space",
+				"space-around"
+			],
+			[
+				"rota",
+				"rotate()"
+			],
+			[
+				"bac",
+				"background-clip"
+			],
+			[
+				"transl",
+				"translate3d()"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"jq",
+				"jQueryLoaded"
+			],
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"row",
+				"rowdb"
+			],
+			[
+				"flex-",
+				"flex-flow"
+			],
+			[
+				"filter",
+				"filtertype"
+			],
+			[
+				"q",
+				"qwery"
+			],
+			[
+				"prom",
+				"images/problems_bg.jpg"
+			],
+			[
+				"logo",
+				"images/logo-inner.png"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"just",
+				"justify-content"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"i",
+				"inside"
+			],
+			[
+				"tran",
+				"translate3d()"
+			],
+			[
+				"tra",
+				"translate3d()"
+			],
+			[
+				"footer_",
+				"images/footer_overlay.png"
+			],
+			[
+				"mTran",
+				"mTransOut"
+			],
+			[
+				"mTra",
+				"mTransOut"
+			],
+			[
+				"algi",
+				"align-items"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"sign",
+				"images/signs_bg.jpg"
+			],
+			[
+				"images",
+				"images/clock.png"
+			],
+			[
+				"pr",
+				"images/problems_cell2.png"
+			],
+			[
+				"getElemen",
+				"getElementById(id)\tElement"
+			],
+			[
+				"transform",
+				"transform-origin"
+			],
+			[
+				"pers",
+				"perspective-origin"
+			],
+			[
+				"cli",
+				"clientWidth\tElement"
+			],
+			[
+				"cur",
+				"cur-m\tcursor: move;"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"scale",
+				"scale()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"m",
+				"mTrans"
+			],
+			[
+				"align-",
+				"align-items"
+			],
+			[
+				"page",
+				"pagekidsdeeper"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"getEl",
+				"getElementById"
+			],
+			[
+				"documen",
+				"document"
+			],
+			[
+				"scr",
+				"scrollToElement"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"scroll",
+				"scrollEvent"
+			],
+			[
+				"REQUE",
+				"REQUEST_URI"
+			],
+			[
+				"Rew",
+				"RewriteCond"
+			],
+			[
+				"ease-",
+				"ease-out"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"url",
+				"url_key"
+			],
+			[
+				"anim-",
+				"anim-\tanimation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"ani",
+				"anim\tanimation"
+			],
+			[
+				"an",
+				"anim-\tanimation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"s",
+				"space-around"
+			],
+			[
+				"html",
+				"htmlentities"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "setcss",
+		"selected_items":
+		[
+			[
+				"setcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"setscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"setsm",
+				"Set Syntax: Smarty"
+			],
+			[
+				"setht",
+				"Set Syntax: HTML"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"setsmar",
+				"Set Syntax: Smarty"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"set prol",
+				"Set Syntax: SWI-Prolog"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"mini",
+				"HTML Minfier: Minify File (create new)"
+			],
+			[
+				"setsscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"cssco",
+				"Run CSScomb"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"set coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"comb",
+				"Run CSScomb"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"setphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"p",
+				"Permute Lines: Reverse"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set s",
+				"Set Syntax: SQL"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 414.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/inc",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/scripts",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/styles",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/styles/modules"
+	],
+	"file_history":
+	[
+		"/C/.qoobworld/reborn/options.txt",
+		"/C/Users/iamle/AppData/Local/Temp/scp04799/home/adventtrad/orchidnails.ru/docs/wp-content/themes/orchidnails/functions.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp05366/home/adventtrad/orchidnails.ru/docs/wp-content/themes/orchidnails/footer.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp43738/home/u23228/u23228.netangels.ru/www/index.html",
+		"/C/.qoobworld/reborn/crash-reports/crash-2016-10-09_16.44.20-client.txt",
+		"/F/Downloads-Torrent/Win10PE_x86_v4_7_RU by Ratiborus/readme.txt",
+		"/F/Downloads-Torrent/Windows.7.HomePremium.SP1.IDimmEdition.23.16.x86-x64/FAQ.txt",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/styles/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/inc/header.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/styles/modules/header.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp33546/modules/smartseoplus/smartseoplus.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/inc/footer.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/inc/sidenav.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/styles/modules/_button.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/styles/fonts/_fonts.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/styles/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/styles/content.scss",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.883/stylesheet.css",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.410/stylesheet.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/package.json",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/scripts/modernizr-custom.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/package.json",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/dist/scripts/fallback.js",
+		"/C/Users/iamle/Downloads/modernizr-custom (1).js",
+		"/C/Users/iamle/Downloads/modernizr-custom.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/src/scripts/vendors/flexibility.min.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/zagorodnyydom.ru/zagorodnyydom/.gitignore",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.997/changelog.txt",
+		"/C/Users/iamle/AppData/Local/Temp/scp44345/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp26979/wp-content/themes/barbecue/header.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp14809/domains/catseductionproject.ru/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp21461/domains/catseductionproject.ru/send.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp46458/home/virtwww/w_latel_6e7d22b2/http/wp-content/themes/vlest-template/page.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp07866/home/virtwww/w_latel_6e7d22b2/http/wp-content/themes/vlest-template/js/js.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp07882/home/virtwww/w_latel_6e7d22b2/http/wp-content/themes/vlest-template/js/forms.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp30567/wp-content/themes/barbecue/functions.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp02896/phpinfo.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp43385/yarastore.ru/www/wp-content/themes/grow/header.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp46249/yarastore.ru/www/wp-content/themes/grow/footer.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp15696/yarastore.ru/www/wp-content/themes/grow/js/main.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp25712/yarastore.ru/www/wp-content/themes/grow/page.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp46339/home/virtwww/w_latel_6e7d22b2/http/wp-content/themes/vlest-template/index.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp32372/custom/themes/default/goods.tpl",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/pushy.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/header.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/inner-header.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp50453/themes/theme933/product.tpl",
+		"/C/Users/iamle/AppData/Local/Temp/scp31824/custom/themes/default/Bookman_Old_Style_300.font.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/procedure.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/_animate.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/header.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/benefits.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/formats.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/articles.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/advices.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/main.scss",
+		"/C/Users/iamle/AppData/Roaming/Skype/My Skype Received Files/метрика.txt",
+		"/C/Users/iamle/AppData/Local/Temp/scp00266/thuja.moscow/docs/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp03232/thuja.moscow/docs/js/js.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp02662/js/js.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/news.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/news.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/feedback.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/news.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/format.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/advices.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/footer-form.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/page.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/scripts/views/inner-page.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/scripts/views/front-page.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/tantum-proj.sublime-project",
+		"/C/Users/iamle/AppData/Local/Temp/scp06205/wp-content/themes/epixx/js/js.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp48404/ecogazcomplect.ru/www/crosslink/index.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp47348/ecogazcomplect.ru/www/crosslink/mainModel.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp53396/ecogazcomplect.ru/www/crosslink/.htpasswd",
+		"/C/Users/iamle/AppData/Local/Temp/scp54993/ecogazcomplect.ru/www/crosslink/.htaccess",
+		"/C/Users/iamle/AppData/Local/Temp/scp54572/ecogazcomplect.ru/www/crosslink/crosslink.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/articles.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/helper.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/format.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/signs.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/footer-form.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/trust.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp42251/home/u222227/alena-oil.ru/www/phpminiadmin.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp45775/home/u222227/alena-oil.ru/www/admin/config.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp17912/thuja.moscow/docs/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp15418/thuja.moscow/docs/send.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp21573/thuja.moscow/docs/js/forms.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp34823/ecogazcomplect.ru/www/core/includes/admin/sub/catalog_excel_import.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp49914/ecogazcomplect.ru/www/core/functions/catalog_import_functions.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp08978/ecogazcomplect.ru/www/core/classes/class.alias.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp59028/ecogazcomplect.ru/www/core/functions/product_functions.php",
+		"/C/Users/iamle/Documents/Work/dumps/____pickup/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp56064/domains/catseductionproject.ru/send.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp47088/ecogazcomplect.ru/www/.htaccess",
+		"/C/Users/iamle/Documents/Work/dumps/____pickup/send.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/arrows.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/problems.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp40242/ecogazcomplect.ru/www/core/includes/admin/catalog.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp39722/ecogazcomplect.ru/www/price-gaz.xls",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/pushy.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/girls.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/welcome.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/_footer.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/formstyler.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/brand.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp21777/eng/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/benefits.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/interesting.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/interesting.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/_animate.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/category.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/clins.ru/clins/src/catalog.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/articles-block.scss",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.126/jquery.formstyler.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/inc/articles.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/button.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp23350/public_html/.htaccess",
+		"/C/Users/iamle/AppData/Local/Temp/scp28121/public_html/404.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp32149/public_html/modules/system/db.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp39828/public_html/admin/goods.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp30578/public_html/catalog.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\tantum\\responsive-1\\Tantum\\src\\styles\\modules",
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\tantum\\responsive-1\\Tantum\\src\\styles",
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\hbmontessori.ru\\responsive-2\\src\\styles",
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\body-clinic.ru\\newdump\\archive_18082016_0928",
+			"C:\\OpenServer\\domains\\temp.dev"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"short",
+			" rgba(255,255,255,0)",
+			"b",
+			"255",
+			"div",
+			"bcColor",
+			"c",
+			"div",
+			"url('su",
+			"<li>",
+			"rl('",
+			"vendors",
+			".check",
+			"check",
+			"Check",
+			"check",
+			"utility",
+			"utilities",
+			"fallback.css",
+			"shims",
+			"shim",
+			"wp_title",
+			"<img ",
+			"<img",
+			"Pro",
+			"){",
+			"kot99999@inbox.ru",
+			"сосн",
+			" pulse",
+			".col",
+			"yahroma",
+			".col",
+			"balashikha",
+			".col",
+			"=\"cat\"",
+			"\"cat",
+			"cat",
+			"date",
+			"-webkit-transform",
+			"animation",
+			"background",
+			"top",
+			"girl",
+			"utf-8",
+			"windows-1251",
+			"<form",
+			"form",
+			"utf",
+			"die",
+			", ",
+			",",
+			"pre",
+			"imGetImportConfiguratorHtmlCode",
+			"n)",
+			"animation",
+			"background-image",
+			"</a>\n      <div>",
+			"a>\n      <",
+			"<a",
+			"span",
+			"a",
+			"icons-list",
+			"select-text",
+			"select",
+			"4993980131",
+			"facts",
+			"primary",
+			"<li>",
+			"shak",
+			"px",
+			"radio__div",
+			"articles__image",
+			"180",
+			"255",
+			"div",
+			"Советы",
+			"Преимущества Тантум<sup>®</sup> Роза",
+			"2",
+			"literature2",
+			"h1",
+			"div",
+			"formats",
+			"гине",
+			"time",
+			"узна",
+			"400px",
+			"$h1Text",
+			"==",
+			"goodsnew",
+			"53",
+			"src=\"j",
+			"src",
+			"src=\"i",
+			"src=\"",
+			"src=\"i",
+			"скидка",
+			"scroll",
+			"message",
+			"div>",
+			"1.6",
+			"1/6",
+			"push",
+			"pushy",
+			"scroll",
+			"10",
+			"font-size: 1.6rem;",
+			"max-height: 900px",
+			"13px",
+			"21px",
+			"6px",
+			"13px",
+			"6px",
+			"21px",
+			"pulse",
+			"repeating",
+			"fgets",
+			"disabled",
+			"раство",
+			"flex-start",
+			"Танту",
+			"30rem",
+			"40rem",
+			"padding-left",
+			"_fast",
+			"__text",
+			"margin",
+			"margin-left",
+			"-1rem"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\n",
+			"",
+			"  ",
+			"block",
+			"\"",
+			"  ",
+			"",
+			"$1",
+			"МО, г. Яхрома, ул. Вокзальная, дом 18",
+			"$1,\\n",
+			"$1",
+			"$1\\n",
+			"<!--$1noindex-->",
+			"$1<",
+			"$1",
+			"",
+			"$1;",
+			"~|~|",
+			" ~|~|",
+			" ",
+			"$1",
+			"",
+			"$1",
+			"",
+			"$1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "zagorodnyydom.sublime-project",
+	"replace":
+	{
+		"height": 96.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

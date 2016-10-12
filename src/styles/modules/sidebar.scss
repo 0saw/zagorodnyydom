@@ -1,0 +1,21 @@
+.sidebar {
+  padding: 0 0.5rem 1rem;
+  &__calc {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #f5f5f5;
+    span {
+      vertical-align: middle;
+      display: inline-block;
+    }
+    img {
+      vertical-align: middle;
+    }
+    &:hover {
+      color: #fff;
+      img {
+        opacity: 0.7;
+      }
+    }
+  }
+}

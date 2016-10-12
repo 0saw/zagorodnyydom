@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Загородный дом</title>
+
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+
+	<!-- @if ENV='dev' -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<link rel="stylesheet" href="styles/main.min.css">
+	<!-- @endif -->
+
+	<!-- // @include inc/_meta.html -->
+  
+  <!-- @include inc/_favicons.html -->
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="super-bg"></div>
+  <!-- @include inc/_browserhappy.html -->
+  
+  
+
+  <div id="main" class="page-container">
+    <!-- @include inc/header.html -->
+    <div class="wrapper wrapper_main">
+      <div class="page-container__container">
+        <div class="page-container__col page-container__col_left">
+          <!-- @include inc/sidenav.html -->
+        </div>
+        <div class="page-container__col page-container__col_right">
+          <header>
+            <h1>Галерея работ компании "Загородный дом"</h1>
+            <div id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="#" rel="v:url" property="v:title">Главная страница</a> - <span class="breadcrumb_last">Статьи</span></span></span></div>
+          </header>
+          <div class="page-container__text articles">
+            <div class="articles__container">
+              <article class="articles__item">
+                <header class="articles__header"><a href="#">Монтаж водяного тёплого пола</a></header>
+                <div class="articles__image">
+                  <img src="images/articles/teplii_pol.jpg" alt="Монтаж водяного тёплого пола">
+                </div>
+                <div class="articles__text">
+                  <p>Обычно системы "теплых" полов размещаются в бетонных наливных полах. Однако они также могут быть размещены и в деревянных полах. Способов укладки "теплого" пола существует очень много.</p>
+                  <footer class="articles__footer cf">
+                    <div class="articles__footer-col">
+                      <time datetime="2016-10-05T14:51:50+00:00">20.01.2016 10:39</time>
+                    </div>
+                    <div class="articles__footer-col">
+                      <a href="#">Читать дальше...</a>
+                    </div>
+                  </footer>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <!-- @include inc/footer.html -->
+  </div>
+
+  <script type="text/javascript" src="scripts/modernizr-custom.js"></script>
+  
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script>jQuery().magnificPopup || document.write('<script src="scripts/vendor/jquery.magnific-popup.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+  <script>jQuery().slick || document.write('<script src="scripts/vendor/slick.min.js"><\/script>')</script>
+
+  <!-- @if ENV='dev' -->
+  <script type="text/javascript" src="scripts/yepnope.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+  <!-- @endif -->
+  <!-- @if ENV='prod' -->
+  <script type="text/javascript" src="scripts/yepnope.min.js"></script>
+	<script type="text/javascript" src="scripts/main.min.js"></script>
+	<!-- @endif -->
+  <!-- //@include inc/_analytics.html -->
+</body>
+</html>

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import '_sprite';
+@import 'node_modules/normalize.css/normalize';
+@import 'node_modules/sass-easing/_easings';
+
+@import 'fonts/_fonts';
+
+$bgColor: #F1F0EE;
+$bgColor2: rgba(255,255,255,1);
+$color1: #35AF1C;
+$color2: #997957;
+$color3: #FF5B2A;
+$color4: #6AFFAC;
+$color5: #0ECC2C;
+$textColor: #333;
+$siteWidth: 75rem;
+$mTrans: $easeOutSine;
+$mTransHov: $easeOutSine;
+
+$font1: 'Noto Serif', serif;
+$font2: 'Noto Sans', sans-serif;
+
+
+html, body {
+  height: 100%;
+  height: 100vh;
+  color: $textColor;
+}
+
+.super-bg {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: $bgColor url('../images/bg.jpg') bottom right no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: $font2;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.center {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  &_main {
+    padding-top: 1rem;
+    flex-grow: 1;
+  }
+}
+
+.cf:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+@import 'modules/**/*';
+@import 'responsive';

@@ -1,0 +1,50 @@
+.footer {
+  .wrapper {
+    background: $bgColor2;
+    margin-bottom: 2rem;
+  }
+  &__container {
+    padding: 0.5rem;
+    border-top: 2px solid $color1;
+    -js-display: flex;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    p {
+      margin: 0;
+      &.email {
+        font-style: italic;
+      }
+    }
+    a {
+      color: $color2;
+      text-decoration: none;
+      border-bottom: 2px dotted rgba(0,0,0,0);
+      font-weight: bold;
+      &:hover {
+        border-bottom: 2px dotted $color2;
+      }
+    }
+  }
+  &__col {
+    flex: 1;
+    &:first-child {
+      min-width: 16.5rem;
+      /*flex-shrink: 1;*/
+    }
+    &:last-child {
+      text-align: right;
+      /*flex-shrink: 1;*/
+      min-width: 16.5rem;
+    }
+    &_counters {
+      /*flex-grow: 1;*/
+      flex: 0;
+    }
+  }
+  &__counters {
+    &:empty {
+      display: none;
+    }
+  }
+}

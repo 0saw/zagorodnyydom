@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  &_header, &_sidebar {
+    vertical-align: middle;
+    background-color: $color3;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: background-color 0.3s ease-out;
+    transition-timing-function: $mTrans;
+    &:hover {
+      background-color: lighten($color3, 10%);
+      transition-duration: 0.2s;
+      transition-timing-function: $mTransHov;
+    }
+  }
+}

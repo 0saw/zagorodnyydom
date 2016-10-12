@@ -1,0 +1,238 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$image-name: 'image';
+$image-x: 24px;
+$image-y: 0px;
+$image-offset-x: -24px;
+$image-offset-y: 0px;
+$image-width: 16px;
+$image-height: 16px;
+$image-total-width: 40px;
+$image-total-height: 40px;
+$image-image: '../images/sprite.png';
+$image: (24px, 0px, -24px, 0px, 16px, 16px, 40px, 40px, '../images/sprite.png', 'image', );
+$magnifying-glass-browser-name: 'magnifying-glass-browser';
+$magnifying-glass-browser-x: 0px;
+$magnifying-glass-browser-y: 0px;
+$magnifying-glass-browser-offset-x: 0px;
+$magnifying-glass-browser-offset-y: 0px;
+$magnifying-glass-browser-width: 24px;
+$magnifying-glass-browser-height: 24px;
+$magnifying-glass-browser-total-width: 40px;
+$magnifying-glass-browser-total-height: 40px;
+$magnifying-glass-browser-image: '../images/sprite.png';
+$magnifying-glass-browser: (0px, 0px, 0px, 0px, 24px, 24px, 40px, 40px, '../images/sprite.png', 'magnifying-glass-browser', );
+$menu-button-black-name: 'menu-button-black';
+$menu-button-black-x: 0px;
+$menu-button-black-y: 24px;
+$menu-button-black-offset-x: 0px;
+$menu-button-black-offset-y: -24px;
+$menu-button-black-width: 16px;
+$menu-button-black-height: 16px;
+$menu-button-black-total-width: 40px;
+$menu-button-black-total-height: 40px;
+$menu-button-black-image: '../images/sprite.png';
+$menu-button-black: (0px, 24px, 0px, -24px, 16px, 16px, 40px, 40px, '../images/sprite.png', 'menu-button-black', );
+$menu-button-name: 'menu-button';
+$menu-button-x: 16px;
+$menu-button-y: 24px;
+$menu-button-offset-x: -16px;
+$menu-button-offset-y: -24px;
+$menu-button-width: 16px;
+$menu-button-height: 16px;
+$menu-button-total-width: 40px;
+$menu-button-total-height: 40px;
+$menu-button-image: '../images/sprite.png';
+$menu-button: (16px, 24px, -16px, -24px, 16px, 16px, 40px, 40px, '../images/sprite.png', 'menu-button', );
+$image-2x-name: 'image@2x';
+$image-2x-x: 48px;
+$image-2x-y: 0px;
+$image-2x-offset-x: -48px;
+$image-2x-offset-y: 0px;
+$image-2x-width: 32px;
+$image-2x-height: 32px;
+$image-2x-total-width: 80px;
+$image-2x-total-height: 80px;
+$image-2x-image: '../images/sprite@2x.png';
+$image-2x: (48px, 0px, -48px, 0px, 32px, 32px, 80px, 80px, '../images/sprite@2x.png', 'image@2x', );
+$magnifying-glass-browser-2x-name: 'magnifying-glass-browser@2x';
+$magnifying-glass-browser-2x-x: 0px;
+$magnifying-glass-browser-2x-y: 0px;
+$magnifying-glass-browser-2x-offset-x: 0px;
+$magnifying-glass-browser-2x-offset-y: 0px;
+$magnifying-glass-browser-2x-width: 48px;
+$magnifying-glass-browser-2x-height: 48px;
+$magnifying-glass-browser-2x-total-width: 80px;
+$magnifying-glass-browser-2x-total-height: 80px;
+$magnifying-glass-browser-2x-image: '../images/sprite@2x.png';
+$magnifying-glass-browser-2x: (0px, 0px, 0px, 0px, 48px, 48px, 80px, 80px, '../images/sprite@2x.png', 'magnifying-glass-browser@2x', );
+$menu-button-black-2x-name: 'menu-button-black@2x';
+$menu-button-black-2x-x: 0px;
+$menu-button-black-2x-y: 48px;
+$menu-button-black-2x-offset-x: 0px;
+$menu-button-black-2x-offset-y: -48px;
+$menu-button-black-2x-width: 32px;
+$menu-button-black-2x-height: 32px;
+$menu-button-black-2x-total-width: 80px;
+$menu-button-black-2x-total-height: 80px;
+$menu-button-black-2x-image: '../images/sprite@2x.png';
+$menu-button-black-2x: (0px, 48px, 0px, -48px, 32px, 32px, 80px, 80px, '../images/sprite@2x.png', 'menu-button-black@2x', );
+$menu-button-2x-name: 'menu-button@2x';
+$menu-button-2x-x: 32px;
+$menu-button-2x-y: 48px;
+$menu-button-2x-offset-x: -32px;
+$menu-button-2x-offset-y: -48px;
+$menu-button-2x-width: 32px;
+$menu-button-2x-height: 32px;
+$menu-button-2x-total-width: 80px;
+$menu-button-2x-total-height: 80px;
+$menu-button-2x-image: '../images/sprite@2x.png';
+$menu-button-2x: (32px, 48px, -32px, -48px, 32px, 32px, 80px, 80px, '../images/sprite@2x.png', 'menu-button@2x', );
+$spritesheet-width: 40px;
+$spritesheet-height: 40px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($image, $magnifying-glass-browser, $menu-button-black, $menu-button, );
+$spritesheet: (40px, 40px, '../images/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 80px;
+$retina-spritesheet-height: 80px;
+$retina-spritesheet-image: '../images/sprite@2x.png';
+$retina-spritesheet-sprites: ($image-2x, $magnifying-glass-browser-2x, $menu-button-black-2x, $menu-button-2x, );
+$retina-spritesheet: (80px, 80px, '../images/sprite@2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$image-group-name: 'image';
+$image-group: ('image', $image, $image-2x, );
+$magnifying-glass-browser-group-name: 'magnifying-glass-browser';
+$magnifying-glass-browser-group: ('magnifying-glass-browser', $magnifying-glass-browser, $magnifying-glass-browser-2x, );
+$menu-button-black-group-name: 'menu-button-black';
+$menu-button-black-group: ('menu-button-black', $menu-button-black, $menu-button-black-2x, );
+$menu-button-group-name: 'menu-button';
+$menu-button-group: ('menu-button', $menu-button, $menu-button-2x, );
+$retina-groups: ($image-group, $magnifying-glass-browser-group, $menu-button-black-group, $menu-button-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}
